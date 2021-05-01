@@ -56,18 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Other Assets\Easy performant outline\Scripts\Editor\EPOSetuper.cs" />
-    <Compile Include="Assets\Other Assets\Easy performant outline\Scripts\Editor\OutlineTargetPropertyDrawer.cs" />
-    <Compile Include="Assets\Other Assets\RealToon\Editor\RealToonShaderGUI_Lite.cs" />
-    <Compile Include="Assets\Other Assets\Easy performant outline\Scripts\Editor\ModelPostprocessor.cs" />
-    <Compile Include="Assets\Other Assets\Easy performant outline\Scripts\Editor\OutlinePropertiesPropertyDrawer.cs" />
-    <Compile Include="Assets\Other Assets\Easy performant outline\Scripts\Editor\OutlinableEditor.cs" />
+    <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Editor\Menu\AnimUnhideTool.cs" />
+    <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Editor\Readme\ReadmeEditor.cs" />
+    <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Editor\Menu\MalbersMenu.cs" />
     <Compile Include="Assets\Other\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\Other Assets\Easy performant outline\Scripts\Editor\OutlinerEditor.cs" />
-    <Compile Include="Assets\Other Assets\RealToon\Editor\RT_Welcome.cs" />
-    <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Editor\MoverInspector.cs" />
-    <Compile Include="Assets\Other Assets\Easy performant outline\Scripts\Editor\SerializedPassPropertyDrawer.cs" />
-    <Compile Include="Assets\Other Assets\RealToon\Editor\RealToonShaderGUI.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Editor\MoverInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -310,7 +310,7 @@ Transform:
   m_LocalScale: {x: 5.6553, y: 1, z: 3.5485}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &63076833324860819
 Transform:
@@ -1094,7 +1094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3645626155286243149, guid: b9471d4fce84b334f944a4233dccd3db, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3645626155286243149, guid: b9471d4fce84b334f944a4233dccd3db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1559,7 +1559,12 @@ MonoBehaviour:
   colliderHeight: 2
   colliderThickness: 1
   colliderOffset: {x: 0, y: 0.5, z: 0}
+  boxCollider: {fileID: 0}
+  sphereCollider: {fileID: 0}
+  capsuleCollider: {fileID: 5922282130326089831}
   sensorType: 0
+  sensorRadiusModifier: 0.8
+  currentLayer: 0
   isInDebugMode: 0
   sensorArrayRows: 1
   sensorArrayRayCount: 5
@@ -1571,6 +1576,43 @@ MonoBehaviour:
   - {x: -0.80901706, y: 0, z: 0.5877852}
   - {x: -0.80901706, y: 0, z: -0.5877851}
   - {x: 0.30901712, y: 0, z: -0.9510565}
+  isGrounded: 0
+  crouching: 0
+  IsUsingExtendedSensorRange: 1
+  baseSensorRange: 0
+  currentGroundAdjustmentVelocity: {x: 0, y: 0, z: 0}
+  col: {fileID: 5922282130326089831}
+  rig: {fileID: 5986229056087435673}
+  tr: {fileID: 6043108197797746775}
+  sensor:
+    castLength: 0
+    sphereCastRadius: 0
+    origin: {x: 0, y: 0, z: 0}
+    castDirection: 0
+    hasDetectedHit: 0
+    hitPosition: {x: 0, y: 0, z: 0}
+    hitNormal: {x: 0, y: 0, z: 0}
+    hitDistance: 0
+    hitColliders: []
+    hitTransforms: []
+    backupNormal: {x: 0, y: 0, z: 0}
+    tr: {fileID: 0}
+    col: {fileID: 0}
+    castType: 0
+    layermask:
+      m_Bits: 0
+    ignoreRaycastLayer: 0
+    calculateRealSurfaceNormal: 0
+    calculateRealDistance: 0
+    arrayRayCount: 0
+    ArrayRows: 0
+    offsetArrayRows: 0
+    raycastArrayStartPositions: []
+    ignoreList: []
+    ignoreListLayers: 
+    isInDebugMode: 0
+    arrayNormals: []
+    arrayPoints: []
 --- !u!114 &5928088394436525415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,9 +1625,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d296f3412ce1434a84b75a9a8ec966e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  animator: {fileID: 0}
+  mover: {fileID: 0}
+  tr: {fileID: 0}
   audioSource: {fileID: 5978432668029721053}
   useAnimationBasedFootsteps: 1
   footstepDistance: 3
+  currentFootstepDistance: 0
+  currentFootStepValue: 0
   audioClipVolume: 0.2
   RelativeRandomizedVolumeRange: 0.2
   footStepClips:
@@ -1605,11 +1653,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9be22bce34010f43b12190b15d84b00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentXAngle: 0
+  currentYAngle: 0
   upperVerticalLimit: 60
   lowerVerticalLimit: 60
+  oldHorizontalInput: 0
+  oldVerticalInput: 0
   cameraSpeed: 250
   smoothCameraRotation: 0
   cameraSmoothingFactor: 25
+  facingDirection: {x: 0, y: 0, z: 0}
+  upwardsDirection: {x: 0, y: 0, z: 0}
+  tr: {fileID: 0}
+  cam: {fileID: 0}
+  cameraInput: {fileID: 0}
 --- !u!114 &5928318953686210253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1624,6 +1681,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 5930090237527540043}
   turnSpeed: 1500
+  parentTransform: {fileID: 0}
+  tr: {fileID: 0}
+  currentYRotation: 0
+  fallOffAngle: 90
   ignoreControllerMomentum: 1
 --- !u!114 &5928435176495044721
 MonoBehaviour:
@@ -1638,11 +1699,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 6043108197797746775}
+  tr: {fileID: 0}
+  currentPosition: {x: 0, y: 0, z: 0}
   lerpSpeed: 20
   smoothDampTime: 0.04
   extrapolatePosition: 0
   updateType: 0
   smoothType: 1
+  localPositionOffset: {x: 0, y: 0, z: 0}
+  refVelocity: {x: 0, y: 0, z: 0}
 --- !u!114 &5928514257907428103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,6 +1721,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 6043108197797746775}
+  tr: {fileID: 0}
+  currentRotation: {x: 0, y: 0, z: 0, w: 0}
   smoothSpeed: 5
   extrapolateRotation: 0
   updateType: 0
@@ -1672,11 +1739,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  tr: {fileID: 0}
+  currentPosition: {x: 0, y: 0, z: 0}
   lerpSpeed: 20
   smoothDampTime: 0.02
   extrapolatePosition: 0
   updateType: 1
   smoothType: 1
+  localPositionOffset: {x: 0, y: 0, z: 0}
+  refVelocity: {x: 0, y: 0, z: 0}
 --- !u!114 &5928624007892256733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1723,6 +1794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  tr: {fileID: 0}
+  currentRotation: {x: 0, y: 0, z: 0, w: 0}
   smoothSpeed: 20
   extrapolateRotation: 0
   updateType: 1
@@ -1740,12 +1813,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 6035880216740370703}
   cameraTargetTransform: {fileID: 6035692476121284949}
+  tr: {fileID: 0}
   castType: 0
   layerMask:
-    serializedVersion: 2
     m_Bits: 4294967295
+  ignoreRaycastLayer: 0
   ignoreList:
   - {fileID: 5922282130326089831}
+  ignoreListLayers: 
+  currentDistance: 0
   minimumDistanceFromObstacles: 0.3
   smoothingFactor: 35
   spherecastRadius: 0.2
@@ -1761,7 +1837,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4650acabe1d6aa6429e42554f1f0feb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  animator: {fileID: 0}
+  animatorTransform: {fileID: 0}
+  tr: {fileID: 0}
   useStrafeAnimations: 0
+  smoothingFactor: 0.8
+  oldMovementVelocity: {x: 0, y: 0, z: 0}
 --- !u!114 &5930090237527540043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1774,16 +1856,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f5e44db14072ea4c964da3b192181c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tr: {fileID: 0}
+  mover: {fileID: 0}
+  characterInput: {fileID: 0}
+  ceilingDetector: {fileID: 0}
+  jumpInputIsLocked: 0
+  jumpKeyWasPressed: 0
+  jumpKeyWasLetGo: 0
+  jumpKeyIsPressed: 0
   movementSpeed: 7
   airControl: 0.4
   jumpSpeed: 10
   jumpDuration: 0.2
+  currentJumpStartTime: 0
   airFriction: 0.5
   groundFriction: 100
+  momentum: {x: 0, y: 0, z: 0}
+  savedVelocity: {x: 0, y: 0, z: 0}
+  savedMovementVelocity: {x: 0, y: 0, z: 0}
   gravity: 30
   slideGravity: 5
   slopeLimit: 80
   useLocalMomentum: 1
+  currentControllerState: 2
   cameraTransform: {fileID: 6042790422317697447}
 --- !u!95 &5945180758317019749
 Animator:

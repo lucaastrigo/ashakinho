@@ -155,6 +155,7 @@ namespace CMF
 			}
 			else if(capsuleCollider)
 			{
+				/*
 				capsuleCollider.height = colliderHeight;
 				capsuleCollider.center = colliderOffset * colliderHeight;
 				capsuleCollider.radius = colliderThickness/2f;
@@ -164,6 +165,7 @@ namespace CMF
 
 				if(capsuleCollider.height/2f < capsuleCollider.radius)
 					capsuleCollider.radius = capsuleCollider.height/2f;
+				*/
 			}
 
 			//Recalibrate sensor variables to fit new collider dimensions;

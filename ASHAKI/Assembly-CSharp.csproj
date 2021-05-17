@@ -59,6 +59,7 @@
     <Compile Include="Assets\_Assets\Programming\Scripts\Environment\EnvironmentalTutorial.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Smoothing\SmoothPosition.cs" />
     <Compile Include="Assets\ShaderGraph\Dissolve\Scripts\DissolveEffect.cs" />
+    <Compile Include="Assets\HealthSystem.cs" />
     <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Utilities\UnityUtils.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\FPSCounter.cs" />
     <Compile Include="Assets\_Assets\Programming\Scripts\Environment\Checkpoint.cs" />
@@ -793,6 +794,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

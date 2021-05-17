@@ -83,6 +83,8 @@ GameObject:
   - component: {fileID: 114842684940577594}
   - component: {fileID: 114611966454256686}
   - component: {fileID: 2593210752308782351}
+  - component: {fileID: 8043168071526730638}
+  - component: {fileID: 3238474700508557375}
   m_Layer: 0
   m_Name: lil Ashaki
   m_TagString: Player
@@ -248,6 +250,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1c755d0c8fc97f4495232b0cab1338d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8043168071526730638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189618843407812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f993ce020a7ab8448ad19d158993a50b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3238474700508557375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189618843407812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37fc899a970480447b41323834fb14e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1234082977098520

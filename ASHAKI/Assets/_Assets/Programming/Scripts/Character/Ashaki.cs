@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class Ashaki : MonoBehaviour
 {
-    public Collider fxCollider;
+    public float vfxRange;
 
     GameMaster gm;
-    public GameObject[] vfxs;
+    GameObject[] vfxs;
 
     void Start()
     {
@@ -20,30 +20,15 @@ public class Ashaki : MonoBehaviour
 
     private void Update()
     {
-        //
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
         for (int i = 0; i < vfxs.Length; i++)
         {
-            if (vfxs[i].gameObject.CompareTag("VFX"))
-            {
-                print(vfxs[i].name);
-                vfxs[i].transform.GetChild(0).gameObject.SetActive(true);
-            }
+            vfxs[i].transform.GetChild(0).gameObject.SetActive(Vector3.Distance(transform.position, vfxs[i].transform.position) <= vfxRange);
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnDrawGizmos()
     {
-        for (int i = 0; i < vfxs.Length; i++)
-        {
-            if (vfxs[i].gameObject.CompareTag("VFX"))
-            {
-                print(vfxs[i].name);
-                vfxs[i].transform.GetChild(0).gameObject.SetActive(false);
-            }
-        }
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, vfxRange);
     }
 }

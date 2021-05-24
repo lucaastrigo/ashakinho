@@ -71,6 +71,7 @@
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Helper\VectorMath.cs" />
     <Compile Include="Assets\Other\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AnimationControl.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\UI\ContadorAlmas.cs" />
     <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Readme\Readme.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AudioControl.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\Controller.cs" />
@@ -109,7 +110,7 @@
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\Mover.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\PlayerData.cs" />
-    <Compile Include="Assets\_Assets\Programming\Scripts\UI\ContadorAlmas.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\Environment\Animorto.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

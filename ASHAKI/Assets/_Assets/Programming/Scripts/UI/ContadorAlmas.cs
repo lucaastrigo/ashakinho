@@ -18,16 +18,6 @@ public class ContadorAlmas : MonoBehaviour
     {
         //tmp.enabled = (almas > 0);
 
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            almas++;
-        }
-
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            almas--;
-        }
-
         if(almas < 0)
         {
             almas = 0;

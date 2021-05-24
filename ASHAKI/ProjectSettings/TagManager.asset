@@ -8,7 +8,7 @@ TagManager:
   - Ground
   - Animorto
   - Fogo
-  - Instakill
+  - VFX
   layers:
   - Default
   - TransparentFX

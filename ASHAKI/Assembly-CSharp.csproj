@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_2_6;UNITY_2020_2;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_2_6;UNITY_2020_2;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -57,99 +57,138 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Assets\Programming\Scripts\Environment\EnvironmentalTutorial.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Smoothing\SmoothPosition.cs" />
-    <Compile Include="Assets\ShaderGraph\Dissolve\Scripts\DissolveEffect.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\_Assets\Programming\Scripts\Character\HealthSystem.cs" />
-    <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Utilities\UnityUtils.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\FPSCounter.cs" />
-    <Compile Include="Assets\_Assets\Programming\Scripts\Environment\Checkpoint.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraDistanceRaycaster.cs" />
-    <Compile Include="Assets\_Assets\Programming\Scripts\Environment\GameMaster.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\AdvancedWalkerController.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\MouseCursorLock.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Helper\VectorMath.cs" />
-    <Compile Include="Assets\Other\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AnimationControl.cs" />
     <Compile Include="Assets\_Assets\Programming\Scripts\UI\ContadorAlmas.cs" />
     <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Readme\Readme.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AudioControl.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\Controller.cs" />
-    <Compile Include="Assets\_Assets\Programming\Scripts\Menu.cs" />
+    <Compile Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus.cs" />
     <Compile Include="Assets\ShaderGraph\Dissolve\Scripts\Testing_Dissolve.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Camera\CameraInput.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardTransformDirection.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\AlignRigidbodyToTarget.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SidescrollerController.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardCameraDirection.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Camera\CameraMouseInput.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SimpleWalkerController.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Camera\ThirdPersonCameraController.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Camera\CameraJoystickInput.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterJoystickInput.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardControllerVelocity.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\Environment\Animorto.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\Other\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\DemoMenu.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\Sensor.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Environment\MovingPlatform.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Utilities\UseTransform.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\CeilingDetector.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\ClickToMoveController.cs" />
-    <Compile Include="Assets\_Assets\Programming\Scripts\CamScript.cs" />
+    <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_DissolveOverTime.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\DisableShadows.cs" />
     <Compile Include="Assets\_Assets\Programming\Scripts\Character\TPMovement.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\RotateObject.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Environment\FlipAtRightAngle.cs" />
+    <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_ExampleReview.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterKeyboardInput.cs" />
     <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Events\UnityEventRaiser.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterInput.cs" />
-    <Compile Include="Assets\_Assets\Programming\Scripts\CursorManager.cs" />
-    <Compile Include="Assets\_Assets\Programming\Scripts\Character\Ashaki.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Environment\TriggerArea.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Smoothing\SmoothRotation.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\Mover.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\PlayerData.cs" />
-    <Compile Include="Assets\_Assets\Programming\Scripts\Environment\Animorto.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_MouseRotation.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Smoothing\SmoothPosition.cs" />
+    <Compile Include="Assets\ShaderGraph\Dissolve\Scripts\DissolveEffect.cs" />
+    <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Utilities\UnityUtils.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\Environment\Checkpoint.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\Environment\GameMaster.cs" />
+    <Compile Include="Assets\Other\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\Menu.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Camera\CameraInput.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SidescrollerController.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SimpleWalkerController.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterJoystickInput.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardControllerVelocity.cs" />
+    <Compile Include="Assets\HolyShift\Scripts\CheckForStandardAssets.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\ClickToMoveController.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\CamScript.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\RotateObject.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Environment\FlipAtRightAngle.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\CursorManager.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\Character\Ashaki.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeTransforms.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WateverVolumeFloater.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBox.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\Core\FlagEnumAttribute.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBase.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeHelper.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Mask8Toon.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Edge Detection.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\DragonEggs_Shader.shader" />
      <None Include="Assets\PolygonParticles\Materials\SHARED BY LUXURYPANDA.txt" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Grass Sway.shader" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Blur.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Color4x2.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Color4x4.shader" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus.compute" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Mask4Toon.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Mask4Realistic.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Golem Shader.shader" />
      <None Include="Assets\_Assets\Character Movement Fundamentals\Source\Misc\Shaders\OneSidedTextShader.shader" />
+     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
      <None Include="Assets\_Assets\Character Movement Fundamentals\README.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Color3x3.shader" />
+     <None Include="Assets\HolyShift\Shaders\FXWaterLowpoly.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Color4x3.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Wind Shader.shader" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Depth Mask Edge Detection.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Ocean.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Dissolve.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plasma.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\AnisotropicCircular.shader" />
      <None Include="Assets\_Assets\Character Movement Fundamentals\Source\Misc\Fonts\LICENSE.txt" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Outline.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus Line.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\AnisotropicWard.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\MWater2.shader" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Snow.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Lava3D.shader" />
      <None Include="Assets\_Assets\Character Movement Fundamentals\Source\Misc\Fonts\Attribution.txt" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Force Field.shader" />
+     <None Include="Assets\HolyShift\readme.txt" />
+     <None Include="Assets\HolyShift\Shaders\WaterInclude.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Color4x2 Emission.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Simple Sine Wave.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Mask8Realistic.shader" />
@@ -802,6 +841,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{9ED6B2C7-BF4F-86E4-C774-7CE734A597AE}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
+      <Project>{91DF2250-8791-4643-128B-DA40AC601F92}</Project>
+      <Name>Boxophobic.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
+      <Project>{0F851D58-E801-4FC8-B55B-4DA04C24C1D1}</Project>
+      <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
+      <Project>{579F2EE2-0971-27C8-5A09-178D331D57FF}</Project>
+      <Name>Boxophobic.Utils.Scripts</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

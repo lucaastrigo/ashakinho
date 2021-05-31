@@ -20,6 +20,7 @@ public class Animorto : MonoBehaviour
             if (!rescued)
             {
                 Instantiate(vfx, transform.position, Quaternion.identity);
+                ContadorAlmas.almas++;
                 //play rescue sound
                 rescued = true;
             }

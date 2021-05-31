@@ -9,6 +9,8 @@ TagManager:
   - Animorto
   - Fogo
   - VFX
+  - Water
+  - Perigo
   layers:
   - Default
   - TransparentFX

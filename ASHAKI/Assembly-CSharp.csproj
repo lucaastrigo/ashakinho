@@ -57,13 +57,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Assets\Programming\Scripts\Environment\EnvironmentalTutorial.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\Menu\MenuDePausa.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\_Assets\Programming\Scripts\Character\HealthSystem.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeTransforms.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\FPSCounter.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraDistanceRaycaster.cs" />
+    <Compile Include="Assets\_Assets\Programming\Scripts\Menu\MenuDeInicio.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\AdvancedWalkerController.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\MouseCursorLock.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Helper\VectorMath.cs" />
@@ -74,6 +77,7 @@
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\Controller.cs" />
     <Compile Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus.cs" />
     <Compile Include="Assets\ShaderGraph\Dissolve\Scripts\Testing_Dissolve.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBase.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardTransformDirection.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\AlignRigidbodyToTarget.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardCameraDirection.cs" />
@@ -93,6 +97,7 @@
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\DisableShadows.cs" />
     <Compile Include="Assets\_Assets\Programming\Scripts\Character\TPMovement.cs" />
     <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_ExampleReview.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBox.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterKeyboardInput.cs" />
     <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Events\UnityEventRaiser.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterInput.cs" />
@@ -116,21 +121,29 @@
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterJoystickInput.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardControllerVelocity.cs" />
     <Compile Include="Assets\HolyShift\Scripts\CheckForStandardAssets.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\Core\FlagEnumAttribute.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeHelper.cs" />
     <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Controllers\ClickToMoveController.cs" />
     <Compile Include="Assets\_Assets\Programming\Scripts\CamScript.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Showcase\RotateObject.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Environment\FlipAtRightAngle.cs" />
+    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WateverVolumeFloater.cs" />
     <Compile Include="Assets\_Assets\Programming\Scripts\CursorManager.cs" />
     <Compile Include="Assets\_Assets\Programming\Scripts\Character\Ashaki.cs" />
     <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
-    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeTransforms.cs" />
-    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WateverVolumeFloater.cs" />
-    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBox.cs" />
-    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\Core\FlagEnumAttribute.cs" />
-    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBase.cs" />
-    <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeHelper.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\RPGController\RPGMesh.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\BSPTree.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperCollisionType.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperStateMachine.cs" />
+    <Compile Include="Assets\SuperCharacterController\Math3d.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperMath.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\BruteForceMesh.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperCharacterController.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperCollider.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\RPGController\RPGTriangleTree.cs" />
+    <Compile Include="Assets\SuperCharacterController\DebugDraw.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -190,6 +203,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Simple Sine Wave.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\SuperCharacterController\README.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\_Assets\Malbers Animations\Common\Shaders\Mask8Realistic.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />

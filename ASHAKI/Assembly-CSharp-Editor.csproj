@@ -60,8 +60,8 @@
     <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Editor\Readme\ReadmeEditor.cs" />
     <Compile Include="Assets\Other\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\_Assets\Malbers Animations\Common\Scripts\Editor\Menu\MalbersMenu.cs" />
-    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Editor\MoverInspector.cs" />
     <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\Editor\FlagEnumAttributeDrawer.cs" />
+    <Compile Include="Assets\_Assets\Character Movement Fundamentals\Source\Scripts\Editor\MoverInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

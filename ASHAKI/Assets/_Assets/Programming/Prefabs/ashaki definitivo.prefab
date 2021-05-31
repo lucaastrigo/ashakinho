@@ -84,6 +84,7 @@ GameObject:
   - component: {fileID: 114611966454256686}
   - component: {fileID: 597973002696747336}
   - component: {fileID: 8631913657335089104}
+  - component: {fileID: 3285064293129243731}
   m_Layer: 0
   m_Name: ashaki definitivo
   m_TagString: Player
@@ -251,7 +252,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37fc899a970480447b41323834fb14e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 5
   vfxRange: 40
+  v: {fileID: 0}
+  vg: {fileID: 0}
 --- !u!114 &8631913657335089104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,8 +268,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b0edb680dca69e46ad5ee35563fefda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  almas: 0
   tmp: {fileID: 0}
+--- !u!114 &3285064293129243731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189618843407812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 2737fef9cc516264ea1e438a847e3c2f, type: 2}
 --- !u!1 &1234082977098520
 GameObject:
   m_ObjectHideFlags: 0

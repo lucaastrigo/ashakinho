@@ -6,7 +6,7 @@ using TMPro;
 
 public class ContadorAlmas : MonoBehaviour
 {
-    public int almas;
+    public static int almas;
     public TextMeshProUGUI tmp;
 
     void Start()
@@ -17,6 +17,7 @@ public class ContadorAlmas : MonoBehaviour
     void Update()
     {
         //tmp.enabled = (almas > 0);
+        tmp.transform.parent.parent.gameObject.SetActive(almas > 0);
 
         if(almas < 0)
         {
